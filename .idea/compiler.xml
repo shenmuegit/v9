@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bibimaov9" />
+        <module name="bbcat.gg.hv.spider" />
+        <module name="bibimao.v9" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bbcat.gg.hv.spider" target="8" />
+      <module name="bibimao.v9" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
